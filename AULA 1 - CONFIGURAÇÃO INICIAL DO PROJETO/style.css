@@ -70,3 +70,43 @@ select {
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
 }
+
+footer {
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture {
+    width: 160px;
+}
+
+.description {
+    display: inline-block;
+    text-align: left;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+
+}
+
+.description p, .description h2 {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+
+}
+
+@media screen and (min-width: 300px;) {
+    .picture {
+        float: none;
+        text-align: center;
+    }
+
+    .description p, .description h2 {
+        text-align: center;
+    }
+
+}
