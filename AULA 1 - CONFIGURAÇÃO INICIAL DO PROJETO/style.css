@@ -11,7 +11,6 @@ body {
 .container {
     max-width: 1000px;
     margin: auto;
-
 }
 
 header {
@@ -78,7 +77,7 @@ footer {
 }
 
 .picture {
-    width: 160px;
+    width: 400px;
 }
 
 .description {
